@@ -4,8 +4,20 @@
   , ["0x4", "__end", null]
   ]
 
-, "zAnmLoaded": 
-  [ ["0x0", "__end", null]
+, "zAnmLoaded":
+  [ ["0x0", "index", "int32_t"]
+  , ["0x4", "name", "char[0x104]"]
+  , ["0x108", "anm_file", "void*"]
+  , ["0x10c", "entry_count", "int32_t"]
+  , ["0x110", "script_count", "int32_t"]
+  , ["0x114", "sprite_count", "int32_t"]
+  , ["0x118", "sprites", "struct zAnmLoadedSprite*"]
+  , ["0x11c", "scripts", "void*"]
+  , ["0x120", "__unknown", null]
+  , ["0x124", "initialized", "int32_t"]
+  , ["0x128", "__unknown", null]
+  , ["0x130", "__exact_size_known", "struct zCOMMENT[0x0]"]
+  , ["0x130", "__end", null]
   ]
 
 , "zAnmLoadedD3D": 
